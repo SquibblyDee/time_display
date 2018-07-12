@@ -1,0 +1,18 @@
+<!DOCTPYE html>
+{% load staticfiles %}
+<HTML>
+    <HEAD>
+        <TITLE>Time Display</TITLE>
+        <link rel="stylesheet" href="{% static '/time_display_app/css/styles.css' %}">
+    </HEAD>
+    <BODY>
+        <div class='container'>
+            <div class='heading'>
+                <H3>The current time and date:</H3>
+            </div>
+            <div class='clock'>
+                <h1>{{time}}</h1>
+            </div>
+        </div>
+    </BODY>
+</HTML>
